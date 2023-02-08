@@ -2,15 +2,16 @@ name: Test and Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
-  jobs:
+jobs:
   my_first_job:
-    name: build
-    test:
-      name: Test
-      runs-on: ubuntu-latest
-      steps:
+    name: build test
+    runs-on: ubuntu-latest
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
