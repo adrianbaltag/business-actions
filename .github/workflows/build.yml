@@ -5,8 +5,8 @@ on:
     branches: [ main ]
 
   jobs:
-      my_first_job:
-        name: build
+  my_first_job:
+    name: build
     test:
       name: Test
       runs-on: ubuntu-latest
