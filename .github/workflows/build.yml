@@ -1,5 +1,5 @@
 # describe what is being done by the app
-name: Test and Deploy
+name: Deploy
 # event
 on:
   push:
