@@ -1,9 +1,11 @@
+# describe what is being done by the app
 name: Test and Deploy
-
+# event
 on:
   push:
+    # branch name
     branches: [main]
-
+# individual tasks
 jobs:
   my_first_job:
     name: build test
